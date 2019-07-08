@@ -22,3 +22,10 @@ function Footer(){
         </div>
     )
 }
+
+function Menu(){
+    var style = {height: '20px' }
+    return(
+        <h1>navbar</h1>
+    )
+}

@@ -1,0 +1,35 @@
+<a href = "index.html">Home</a>
+
+<h2>Starting a new project</h2>
+From the command line:
+<ol>
+    <li>rails new &ltproject name&gt</li>
+    <li>cd &ltproject name&gt</li>
+    <li>git innit</li>
+    <li>git commit -m "initial commit"</li>
+</ol>
+<br/>
+<h2>Scaffolding CRUD for a new model</h2>
+rails generate scaffold &ltmodel name, capitalized and singular&gt &ltcolumn name, singular, lower case&gt:&ltdata type&gt &ltcolumn name, singular, lower case&gt:&ltdata type&gt
+example: rails g scaffold User name:string email:string administrator:boolean hireddate:datetime
+
+<h2>Data types</h2>
+<ul>
+    <li>binary</li>
+    <li>boolean</li>
+    <li>date</li>
+    <li>datetime</li>
+    <li>decimal</li>
+    <li>float</li>
+    <li>integer</li>
+    <li>bigint</li>
+    <li>primary_key</li>
+    <li>references</li>
+    <li>string</li>
+    <li>text</li>
+    <li>time</li>
+    <li>timestamp</li>    
+</ul>
+<hr/>
+
+Full documentation available at <a href = "https://guides.rubyonrails.org/index.html">the official rails website.</a>
