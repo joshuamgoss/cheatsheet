@@ -26,6 +26,13 @@ function Footer(){
 function Menu(){
     var style = {height: '20px' }
     return(
-        <h1>navbar</h1>
+        <div>
+            <h1>navbar</h1>
+            <a href = "bootstrap.html">Bootstrap</a>
+            <a href = "commandline.html">Command Line</a>
+            <a href = "git.html">Git</a>
+            <a href = "Rails.html">Rails</a>
+            <a href = "docker.html">Docker</a>
+        </div>
     )
 }
