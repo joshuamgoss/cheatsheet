@@ -11,30 +11,51 @@
     <title>Main</title>
 </head>
 <body>
-    <div id = 'top'></div>
-
-    <h2>Cheat Sheet Collection</h2>
-
-    <div>
-        <a href = "bootstrap.html">Bootstrap</a>
-        <a href = "commandline.html">Command Line</a>
-        <a href = "git.html">Git</a>
-        <a href = "Rails.html">Rails</a>
-        <a href = "docker.html">Docker</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Cheat Sheet Collection</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Pages
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class = 'dropdown-item' href = "bootstrap.html">Bootstrap</a>
+                <a class = 'dropdown-item' href = "commandline.html">Command Line</a>
+                <a class = 'dropdown-item' href = "git.html">Git</a>
+                <a class = 'dropdown-item' href = "Rails.html">Rails</a>
+                <a class = 'dropdown-item' href = "docker.html">Docker</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    
+    <div class = 'container'>
+        <br/>
+        <h1 class = 'jumbotron text-center'>Welcome</h1>
+        <div class = 'row'>
+        <p class = 'col-sm-12 col-lg-6'>
+            This is the bones of a website meant to house a collection of basic commands, 
+            shortcuts, tips, and tricks.  The cheat sheets cover topics used heavily by 
+            the Yale Student Development Mentorship Program (SDMP) and more generally by 
+            the Yale CCT App-Dev team.
+        </p>
+        <p class = 'col-sm-12 col-lg-6'>
+            It is a work in progress, freely available to be added to, deleted from, copied,
+            or whatever anyone wants to do.  This is NOT the structure that a website SHOULD have.
+            A lot of decisions were made in order to keep everything as simple as possible, 
+            so things that could - and should - have been used were ommitted. 
+        </p>
     </div>
-
-    <p>
-        This is the bones of a website meant to house a collection of basic commands, 
-        shortcuts, tips, and tricks.  The cheat sheets cover topics used heavily by 
-        the Yale Student Development Mentorship Program (SDMP) and more generally by 
-        the Yale CCT App-Dev team.
-    </p>
-    <p>
-        It is a work in progress, freely available to be added to, deleted from, copied,
-        or whatever anyone wants to do.  This is NOT the structure that a website SHOULD have.
-        A lot of decisions were made in order to keep everything as simple as possible, 
-        so things that could - and should - have been used were ommitted. 
-    </p>
+    </div>  
 
     <div>Project hosted on <a href="https://github.com/joshuamgoss/cheatsheet">GitHub</a></div>
 
